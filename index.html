@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>My Personal Blog</title>
+    <title>Walter Thant's Blog</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -29,7 +29,13 @@
         nav a {
             margin: 0 15px;
             text-decoration: none;
-            color: #333;
+            color: #fff;
+            background-color: #444;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background-color: #555;
         }
         .container {
             width: 80%;
@@ -53,6 +59,21 @@
             color: #333;
             text-decoration: none;
         }
+        .post a:hover {
+            text-decoration: underline;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .btn:hover {
+            background-color: #555;
+        }
         footer {
             background-color: #333;
             color: #fff;
@@ -68,7 +89,7 @@
 
     <!-- Header Section -->
     <header>
-        <h1>Welcome to My Blog</h1>
+        <h1>Walter Thant's Blog</h1>
         <nav>
             <a href="#">Home</a>
             <a href="#">About</a>
@@ -81,27 +102,27 @@
         <!-- Blog Post 1 -->
         <div class="post">
             <h2>First Blog Post Title</h2>
-            <p>Posted on <strong>October 24, 2024</strong> by <strong>Author Name</strong></p>
+            <p>Posted on <strong>October 24, 2024</strong> by <strong>Walter Thant</strong></p>
             <p>
                 This is the content of my first blog post. Here I write about a topic that I find interesting. It could be a personal story, tutorial, or even a review of something I enjoy.
-                <a href="#">Read more...</a>
             </p>
+            <a href="#" class="btn">Read More</a>
         </div>
 
         <!-- Blog Post 2 -->
         <div class="post">
             <h2>Second Blog Post Title</h2>
-            <p>Posted on <strong>October 10, 2024</strong> by <strong>Author Name</strong></p>
+            <p>Posted on <strong>October 10, 2024</strong> by <strong>Walter Thant</strong></p>
             <p>
                 Here is another blog post. It might include photos, thoughts, and more. Blogs are great for expressing yourself and sharing your thoughts with the world.
-                <a href="#">Read more...</a>
             </p>
+            <a href="#" class="btn">Read More</a>
         </div>
     </div>
 
     <!-- Footer Section -->
     <footer>
-        <p>&copy; 2024 My Personal Blog | All Rights Reserved</p>
+        <p>&copy; 2024 Walter Thant's Blog | All Rights Reserved</p>
     </footer>
 
 </body>
